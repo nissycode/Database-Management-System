@@ -9,7 +9,8 @@ create table tblemployees(
   address varchar(45) not null,
   birthday date not null,
   salary varchar(45) not null,
-  email varchar(45) not null
+  email varchar(45) not null,
+  hiredOn date nt null
   );
 
 /* 5 value, no duplicate */
